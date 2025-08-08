@@ -1,0 +1,24 @@
+/* o RGB é um modelo de cores baseado na combinação das seguintes cores: 
+
+R:RED
+G:GREEN
+B:BLUE 
+
+Usamos esse modelo, pois ele é usado para representar cores em telas .
+ex: monitor, celular, tvs e navegadores web.
+ */
+h1 { color: rgb(48, 48, 48); 
+   text-align: center;
+}
+
+p {
+   text-align: justify;
+   color: chocolate;
+}
+body {
+   background-color: lightblue;
+}
+
+/* usamos a #(hashtag) para indentificar o id - indentifier (identificador) */
+#paragrafo-footer {
+   text-align: center;}
