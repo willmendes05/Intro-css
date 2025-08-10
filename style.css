@@ -12,13 +12,77 @@ h1 { color: rgb(48, 48, 48);
 }
 
 p {
-   text-align: justify;
+   text-align: center;
    color: chocolate;
 }
 body {
-   background-color: lightblue;
+   background-color: beige;
 }
 
 /* usamos a #(hashtag) para indentificar o id - indentifier (identificador) */
 #paragrafo-footer {
    text-align: center;}
+
+   /* usamos . (ponto final) para identficar uma classe */
+   .paragrafo-section { 
+      color: gold;
+   }
+ 
+   /* seletor Descendente - onde selecionamos todos os elementos que são decendentes do primeiro, ou seja, elementos filhos */
+   section h2 {
+      color: darkblue;
+      background-color: blueviolet;
+   }
+
+
+   body{ 
+      background-color: darkblue;
+      font-family: sans-serif;
+   }
+
+   header {
+      background-color: yellowgreen;
+   }
+
+   header h1 {
+      /* para deixar o texto minusculo */
+      text-transform: lowercase  ;
+      /* para deixar o texto maiusculo */
+      /* text-transform: uppercase  ; */
+      /* para deixar cada letra de cada palavra com letra maiuscula */
+      /* text-transform: capitalize; */
+   }
+
+   main {
+      background-color: violet;
+   }
+
+   main section {
+      text-align: center;
+   }
+
+   main section {
+      text-align: inherit;
+   }
+
+   section h2{
+      width: 400px;
+     
+      /* padding-left 20px;
+      padding-bottom: 20px;
+      padding-top 20px;
+      padding-right 20px; */
+
+      /* shorthand - atalho */
+
+      /* padding: 20px; */
+
+      /* top/ bottom| left/ right */
+      padding: 20px 10px;
+
+      /* espessura/ tipo de borda/ cor da borda */
+      border: 3px solid black; 
+
+      margin-top: 40px;
+      margin-left: 40px;
+   }
